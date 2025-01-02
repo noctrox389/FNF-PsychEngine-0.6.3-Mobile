@@ -44,7 +44,7 @@ class FPS extends TextField
 		The current frame rate, expressed using frames-per-second
 	**/
 	public var currentFPS(default, null):Int;
-	@:noCompletion private final os:String;
+	private var os:String;
 
 	@:noCompletion private var cacheCount:Int;
 	@:noCompletion private var currentTime:Float;
@@ -54,7 +54,9 @@ class FPS extends TextField
 	{
 		super();
 
+		#if !officialBuild
 		os = '\nOS: ${LimeSystem.platformName} ${getArch() != 'Unknown' ? getArch() : ''} ${(LimeSystem.platformName == LimeSystem.platformVersion || LimeSystem.platformVersion == null) ? '' : '- ' + LimeSystem.platformVersion}';
+		#end
 
 		this.x = x;
 		this.y = y;

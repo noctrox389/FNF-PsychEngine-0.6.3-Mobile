@@ -41,20 +41,18 @@
     {
       "name": "hxCodec",
       "type": "git",
-      "ref": "main",
-      "url": "https://github.com/MobilePorting/hxCodec-0.6.3"
+      "ref": "master",
+      "url": "https://github.com/polybiusproxy/hxCodec"
     },
     {
       "name": "hxcpp",
-      "type": "git",
-      "ref": "master",
-      "url": "https://github.com/mcagabe19-stuff/hxcpp"
+      "type": "haxelib",
+      "version": "4.3.2"
     },
     {
       "name": "lime",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/mcagabe19-stuff/lime"
+      "type": "haxelib",
+      "version": "8.2.2"
     },
     {
       "name": "openfl",

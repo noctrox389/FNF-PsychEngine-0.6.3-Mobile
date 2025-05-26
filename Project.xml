@@ -8,7 +8,7 @@
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
 
 	<!-- Lime and OpenFL version fixes -->
-	<lime version="8.2.2" />
+	<lime version="7.9.0" />
 	<haxelib name="openfl" version="9.1.0" />
 
 	<!-- NOTE TO SELF: DISABLE THIS IF ISSUES ARE FOUND -->
